@@ -1,0 +1,7 @@
+#cadquery
+numpy
+uharfbuzz
+fpdf2
+nicegui
+PyMuPDF
+tinycss

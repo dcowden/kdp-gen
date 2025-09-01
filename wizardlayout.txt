@@ -1,0 +1,46 @@
+Notes:
+generate thumbnails!
+
+start with examples --> thumbnail of each example
+   THEN customize
+   THEN start making variations --> thumbnail or example of just one setting at a time
+
+trick: the initial state dedicates large area to showing lots of possibilities.
+its too hard for the user to click each of the items in the top level one at a time. initial set needs
+     to 'show off' whats possible
+
+trick 2: you really end up having to have defaults set for each level in the configuration tree
+
+trick 3: at some point, you stop letting them opt in, and you just launch 'customize' where you walk through all options
+one at a time
+
+trick 4: you need thumbnails that illustrate WHAT a setting is-- like dimensions for widths etc
+
+trick 5: visualizing the grid choices can be done with a single square,
+but honestly just rendering the whole thing is probably good enough!!!
+
+trick 6: change from home-grown styles to css styles?
+
+trick 7: use css style sto simplify config, and tinycss to parse and convert to the pdf
+https://chatgpt.com/share/68afaea5-2144-8013-b03d-76bc76da4faa
+
+our flow:
+  1 showcase :
+  2 config tree:
+       metric/imperial ( default to in/mm)
+       paper size/orientation (list common values supported by KDP)
+        major /minior axis spacing ( default to same fo both axes )
+       title block ( list elements)
+        grid labels
+       creator name
+
+  3. now bail to full on customize
+
+always selected  by dfeault except for full on customize
+    font size
+    line thicknesses/styles/colors
+    gutter spacing
+    title block sizes
+
+need to make font and line style picker with nicegui i think:
+    "https://chatgpt.com/c/68af9566-9d58-8322-9ffa-61aa6ee3ddda"
